@@ -1,0 +1,98 @@
+/*import des fichiers de composants*/
+@import url("components/card.css");
+@import url("components/container.css");
+
+/*Colors and Fonts*/
+
+body{
+	text-align: center;
+	color: black;
+	font-family:arial;
+
+}
+
+h1{
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	color:#5026A7;
+	font-size: 24px;
+}
+
+
+	 
+
+a{
+	color:#F66767;
+	text-decoration:none;
+
+}
+a:hover {
+	color: #fb9224;
+}
+
+h2:hover {
+	color: #6b591d;
+}
+
+
+/*Custom design with class*/
+
+
+
+/*responisve design*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+}
+	
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color:#F66767;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin:10px;
+}
+
+.btn-blue:hover{
+	background-color:black;
+	color:white;
+}
+
+.list-inline{
+	list-style:none;
+	padding-left: 0px
+}
+
+.list-inline li{
+	display:inline;
+
+}
+
+#introduction p {
+	margin-bottom:40px;
+}
+

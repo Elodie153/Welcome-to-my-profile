@@ -1,0 +1,32 @@
+.card-white{
+	background-color: #CECECE;
+	padding: 40px;
+	box-shadow: 10px 10px 50px 10px rgba(250,230,400,0.6);
+	border-radius: 4px;
+	margin: 50px 0px;
+}
+
+#bg-img{
+	background-image: url(../../images/paint.jpg);
+}
+
+
+
+
+.img-cinéma{
+	background-image:url(../../images/cinema.jpg);
+	width: 620px;
+	height: 100px;  
+}
+
+.img-voyage {
+	background-image:url(../../images/voyage.jpg);
+	width: 620px;
+	height: 100px;  
+}
+
+.img-blue {
+	background-image:url(../../images/blue.jpg);
+	width: 620px;
+	height: 100px;  
+}
